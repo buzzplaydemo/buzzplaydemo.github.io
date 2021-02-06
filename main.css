@@ -1,0 +1,70 @@
+/* 
+    Site's main colors are: 
+    #32a89d (main blue)
+    #f0cd07 (secondary yellow)
+    #0a0a0a (primary black)
+    #f5f5f5 (primary white)
+
+*/
+* {
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-color: #0a0a0a;
+    margin: 0;
+}
+header, footer {
+    background-color: #32a89d;
+    padding: 10px 0;
+}
+main {
+    min-height: calc(100vh - 100px);
+    padding-bottom: 50px;
+}
+nav::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+.col-third {
+    width: 33%;
+    float: left;
+}
+.section-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+p, h1, h2, h3, li, span {
+    color: #f5f5f5;
+}
+input {
+    border-style: solid;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: #f5f5f5;
+}
+
+.text-align_center {
+    text-align: center;
+}
+.text-align_right {
+    text-align: right;
+}
+.float_right {
+    float: right;
+}
+.float_left {
+    float: left;
+}
+
+.site-logo {
+    max-height: 80px;
+}
+.sow-container {
+    text-align: center;
+}
+.sow-container iframe {
+    width: 60%;
+}
