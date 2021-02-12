@@ -56,6 +56,11 @@ input {
     justify-content: space-between;
 }
 
+.more-streamers img {
+    width: 350px;
+    height: auto;
+}
+
 .text-align_center {
     text-align: center;
 }
@@ -75,10 +80,22 @@ input {
 .sow-container {
     text-align: center;
     padding-bottom: 80px;
+    max-height: 100%;
 }
+
+.sow-container img {
+    width: 900px;
+    height: auto;
+}
+
 .sow-container iframe {
     width: 60%;
 }
+
 #copyright {
     text-align: center;
+}
+
+@media only screen and (max-width: 969px) {
+    
 }
