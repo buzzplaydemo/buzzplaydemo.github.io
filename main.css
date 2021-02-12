@@ -59,6 +59,7 @@ input {
 .more-streamers img {
     width: 350px;
     height: auto;
+    max-width: 100%;
 }
 
 .text-align_center {
@@ -86,6 +87,7 @@ input {
 .sow-container img {
     width: 900px;
     height: auto;
+    max-width: 100%;
 }
 
 .sow-container iframe {
@@ -97,5 +99,7 @@ input {
 }
 
 @media only screen and (max-width: 969px) {
-    
+    .more-streamers img {
+        padding-bottom: 50px;
+    }
 }
